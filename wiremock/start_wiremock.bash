@@ -1,0 +1,1 @@
+docker run --rm -7777:8080 --name wiremock -v /home/ups/homework/wiremock/mappings:/home/wiremock/mappings wiremock/wiremock:2.35.0 --verbose
