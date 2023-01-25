@@ -11,6 +11,7 @@
     <modules>
         <module>rest-assured</module>
         <module>citrus</module>
+        <module>helpers</module>
     </modules>
 
     <properties>
