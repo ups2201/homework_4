@@ -77,4 +77,10 @@ public class EndpointConfig {
             .offsetReset("earliest")
             .build();
     }
+
+    @Bean
+    public SimpleJsonSchema productSchema() {
+        return new SimpleJsonSchema(
+            new ClassPathResource("classpath:com/consol/citrus/validation/ProductsSchema.json"));
+    }
 }
