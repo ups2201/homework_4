@@ -1,11 +1,11 @@
 {
   "request": {
     "method": "GET",
-    "url": "/api/users"
+    "url": "/user/get/{id}"
   },
   "response": {
-    "status": 400,
-    "body": "{ \"error\": \"Bad Request, parameter page is required\"}",
+    "status": 200,
+    "body": "{\"name\":\"Test user\", \"score\": 78}",
     "headers": {
       "Content-Type": "application/json"
     }

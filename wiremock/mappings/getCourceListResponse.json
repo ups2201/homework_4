@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/cource/get/all"
+  },
+  "response": {
+    "status": 200,
+    "body": "[{\"name\":\"QA java\", \"price\": 15000}, {\"name\":\"Java\", \"price\": 12000}]",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
